@@ -11,12 +11,12 @@ Sample commands:\
 **docker build -t app_to_serve .**\
 **docker run -p 8080:80 app_to_serve**
 
-The app is now accessible at 127.0.0.1/8080. If you need to use a different
+The app is now accessible at 127.0.0.1:8080. If you need to use a different
 port for any reason, simply supply that port to the docker run command:
 
 **docker run -p 25565:80 app_to_serve**
 
-The app is now accessible at 127.0.0.1\25565
+The app is now accessible at 127.0.0.1:25565
 ***
 
 To host this app without Docker would require a web server be installed on the target machine.
